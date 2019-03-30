@@ -1,4 +1,4 @@
-import React from 'react';
+import  React from 'react';
 import MediaQuery from 'react-responsive';
 
 import { Grid, GridItem } from '@patternfly/react-core';
@@ -38,8 +38,8 @@ const LeftCards = () => (
   <GridItem key="left" lg={3} md={12} sm={12}>
     <Grid>
       <GridItem lg={12} md={6} sm={12}>
-        <ClusterDetailsConnected />
-      </GridItem>
+        <ClusterDetailsConnected /> 
+      </GridItem> 
       <GridItem lg={12} md={6} sm={12}>
         <InventoryConnected />
       </GridItem>

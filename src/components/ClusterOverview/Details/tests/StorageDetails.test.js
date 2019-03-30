@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from 'enzyme';
 
-import { StorageDetails } from '../storageDetails';
-import { default as StorageDetailsFixtures } from '../fixtures/Details.fixture';
+import { StorageDetails } from '../StorageDetails';
+import { default as StorageDetailsFixtures } from '../fixtures/StorageDetails.fixture';
 
 const testStorageDetailsOverview = () => <StorageDetails {...StorageDetailsFixtures[0].props} />;
 
