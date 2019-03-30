@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { get } from 'lodash';
 
-import { StorageOverviewContextGenericConsumer } from '../ClusterOverviewContext';
+import { ClusterOverviewContextGenericConsumer } from '../ClusterOverviewContext';
 import { InlineLoading } from '../../Loading';
 import { Details } from './Details';
 
@@ -33,7 +33,7 @@ const getClusterName = storageCluster => {
 };
 
 export const StorageDetailsConnected = () => (
-  <StorageOverviewContextGenericConsumer Component={StorageDetails} dataPath="detailsData" />
+  <ClusterOverviewContextGenericConsumer Component={StorageDetails} dataPath="detailsData" />
 );
 
 StorageDetails.defaultProps = {
