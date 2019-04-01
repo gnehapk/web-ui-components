@@ -10,18 +10,17 @@ import { default as StorageOverviewFixtures } from '../fixtures/StorageOverview.
 const providerValue = StorageOverviewFixtures[0].props;
 
 describe('<StorageOverview />', () => {
-    it('shallow-renders correctly', () => {
-      const component = shallow(<StorageOverview />);
-      expect(component).toMatchSnapshot();
-    });
-  
-    it('renders correctly with Provider', () => {
-        const component = render(
-          <ClusterOverviewContext.Provider value={providerValue}>
-            <StorageOverview />
-          </ClusterOverviewContext.Provider>
-        );
-        expect(component).toMatchSnapshot();
-      });
-    });
-    
+  it('shallow-renders correctly', () => {
+    const component = shallow(<StorageOverview />);
+    expect(component).toMatchSnapshot();
+  });
+
+  it('renders correctly with Provider', () => {
+    const component = render(
+      <ClusterOverviewContext.Provider value={providerValue}>
+        <StorageOverview />
+      </ClusterOverviewContext.Provider>
+    );
+    expect(component).toMatchSnapshot();
+  });
+});

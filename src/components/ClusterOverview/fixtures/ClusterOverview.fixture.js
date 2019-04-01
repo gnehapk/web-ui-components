@@ -25,6 +25,8 @@ export const vms = [fullVm, cloudInitTestVm];
 export const vmis = [cloudInitTestVmi];
 export const migrations = [];
 
+export const heading = 'Cluster Details';
+
 const ClusterOverview = props => (
   <ClusterOverviewContext.Provider value={props}>
     <ClusterOverviewComponent />
@@ -48,6 +50,7 @@ export default [
       vms,
       vmis,
       migrations,
+      heading,
     },
   },
   {
