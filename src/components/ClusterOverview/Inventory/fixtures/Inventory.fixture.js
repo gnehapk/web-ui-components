@@ -1,5 +1,5 @@
 import { Inventory } from '../Inventory';
-import { nodes, pvcs, pods, vms, vmis, migrations, heading } from '../../fixtures/ClusterOverview.fixture';
+import { nodes, pvcs, pods, vms, vmis, migrations } from '../../fixtures/ClusterOverview.fixture';
 
 export default [
   {
@@ -11,7 +11,6 @@ export default [
       vms,
       vmis,
       migrations,
-      heading,
     },
   },
   {
