@@ -12,10 +12,11 @@ import { ClusterOverviewContext } from '../ClusterOverviewContext';
 import { mapNodesToProps, mapPodsToProps, mapPvcsToProps, mapVmsToProps } from './utils';
 import { InventoryRow } from './InventoryRow';
 
-const InventoryBody = ({ nodes, pods, vms, vmis, pvcs, migrations }) => (
+const InventoryBody = ({ nodes, pods, vms, vmis, pvcs, pvs, migrations }) => (
   <React.Fragment>
     <InventoryRow title="Nodes" {...mapNodesToProps(nodes)} />
     <InventoryRow title="PVCs" {...mapPvcsToProps(pvcs)} />
+    <InventoryRow title="PVs" {...mapPvcsToProps(pvs)} />
     <InventoryRow title="Pods" {...mapPodsToProps(pods)} />
     <InventoryRow title="VMs" {...mapVmsToProps(vms, pods, migrations)} />
   </React.Fragment>
@@ -27,6 +28,7 @@ InventoryBody.defaultProps = {
   vms: undefined,
   vmis: undefined,
   pvcs: undefined,
+  pvs: undefined,
   migrations: undefined,
 };
 
@@ -36,13 +38,14 @@ InventoryBody.propTypes = {
   vms: PropTypes.array,
   vmis: PropTypes.array,
   pvcs: PropTypes.array,
+  pvs: PropTypes.array,
   migrations: PropTypes.array,
 };
 
 export const Inventory = props => (
   <DashboardCard>
     <DashboardCardHeader>
-      <DashboardCardTitle>Cluster inventory</DashboardCardTitle>
+      <DashboardCardTitle> {props.inventoryHeading} </DashboardCardTitle>
       <DashboardCardTitleHelp>help for inventory</DashboardCardTitleHelp>
     </DashboardCardHeader>
     <DashboardCardBody className="kubevirt-inventory__body">
@@ -53,10 +56,12 @@ export const Inventory = props => (
 
 Inventory.defaultProps = {
   ...InventoryBody.defaultProps,
+  inventoryHeading: undefined,
 };
 
 Inventory.propTypes = {
   ...InventoryBody.propTypes,
+  inventoryHeading: PropTypes.string,
 };
 
 const InventoryConnected = () => (

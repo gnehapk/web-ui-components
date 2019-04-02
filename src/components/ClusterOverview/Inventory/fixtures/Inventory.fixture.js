@@ -1,12 +1,14 @@
 import { Inventory } from '../Inventory';
-import { nodes, pvcs, pods, vms, vmis, migrations } from '../../fixtures/ClusterOverview.fixture';
+import { nodes, pvcs, pvs, pods, vms, vmis, migrations, inventoryHeading } from '../../fixtures/ClusterOverview.fixture';
 
 export default [
   {
     component: Inventory,
     props: {
+      inventoryHeading,
       nodes,
       pvcs,
+      pvs,
       pods,
       vms,
       vmis,

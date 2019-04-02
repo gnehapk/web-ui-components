@@ -14,12 +14,14 @@ import { ClusterOverviewContext } from '../ClusterOverviewContext';
 import { localhostNode } from '../../../tests/mocks/node';
 import { cloudInitTestPod } from '../../../tests/mocks/pod/cloudInitTestPod.mock';
 import { persistentVolumeClaims } from '../../../tests/mocks/persistentVolumeClaim';
+import { persistentVolumes } from '../../../tests/mocks/persistentVolume';
 import { cloudInitTestVm } from '../../../tests/mocks/vm/cloudInitTestVm.mock';
 import { fullVm } from '../../../tests/mocks/vm/vm.mock';
 import { cloudInitTestVmi } from '../../../tests/mocks/vmi/cloudInitTestVmi.mock';
 
 export const nodes = [localhostNode];
 export const pvcs = persistentVolumeClaims;
+export const pvs = persistentVolumes;
 export const pods = [cloudInitTestPod];
 export const vms = [fullVm, cloudInitTestVm];
 export const vmis = [cloudInitTestVmi];
@@ -44,10 +46,12 @@ export default [
       consumersData,
       nodes,
       pvcs,
+      pvs,
       pods,
       vms,
       vmis,
       migrations,
+      inventoryHeading:'Cluster Inventory',
     },
   },
   {
