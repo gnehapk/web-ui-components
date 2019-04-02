@@ -114,6 +114,18 @@ export const PersistentVolumeClaimModel = {
   labelPlural: 'Persistent Volume Claims',
 };
 
+export const PersistentVolumeModel = {
+  label: 'Persistent Volume',
+  apiVersion: 'v1',
+  path: 'persistentvolumes',
+  plural: 'persistentvolumes',
+  abbr: 'PV',
+  namespaced: true,
+  kind: 'PersistentVolume',
+  id: 'persistentvolume',
+  labelPlural: 'Persistent Volumes',
+};
+
 export const DataVolumeModel = {
   label: 'Data Volume',
   labelPlural: 'Data Volumes',
