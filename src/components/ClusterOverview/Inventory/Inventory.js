@@ -39,10 +39,10 @@ InventoryBody.propTypes = {
   migrations: PropTypes.array,
 };
 
-export const Inventory = ({ inventory, loaded, heading }) => (
+export const Inventory = props => (
   <DashboardCard>
     <DashboardCardHeader>
-      <DashboardCardTitle>{heading}</DashboardCardTitle>
+      <DashboardCardTitle>Inventory</DashboardCardTitle>
       <DashboardCardTitleHelp>help for inventory</DashboardCardTitleHelp>
     </DashboardCardHeader>
     <DashboardCardBody className="kubevirt-inventory__body">
@@ -52,14 +52,11 @@ export const Inventory = ({ inventory, loaded, heading }) => (
 );
 
 Inventory.defaultProps = {
-  loaded: false,
-  heading: "Inventory",
+  ...InventoryBody.defaultProps,
 };
 
 Inventory.propTypes = {
-  inventory: PropTypes.object.isRequired,
-  loaded: PropTypes.bool,
-  heading: PropTypes.string,
+  ...InventoryBody.propTypes,
 };
 
 const InventoryConnected = () => (
