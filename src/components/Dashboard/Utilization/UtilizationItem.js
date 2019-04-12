@@ -3,6 +3,10 @@ import PropTypes from 'prop-types';
 import Measure from 'react-measure';
 
 import { Col, Row } from 'patternfly-react';
+<<<<<<< HEAD
+=======
+
+>>>>>>> Use PF4 graphs
 import { ChartArea, ChartVoronoiContainer, Chart, ChartAxis, ChartTooltip } from '@patternfly/react-charts';
 
 import { MEDIA_QUERY_SM } from '../../../utils';

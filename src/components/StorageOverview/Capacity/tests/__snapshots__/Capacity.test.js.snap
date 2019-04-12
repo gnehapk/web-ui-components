@@ -64,7 +64,11 @@ exports[`<Capacity /> renders correctly 1`] = `
               dx="0"
               dy="8.875"
               x="100"
+<<<<<<< HEAD
               y="88"
+=======
+              y="86.95652173913044"
+>>>>>>> Use PF4 graphs
             >
               <tspan
                 dx="0"
@@ -80,7 +84,11 @@ exports[`<Capacity /> renders correctly 1`] = `
               dx="0"
               dy="5.324999999999999"
               x="100"
+<<<<<<< HEAD
               y="112"
+=======
+              y="111.11111111111111"
+>>>>>>> Use PF4 graphs
             >
               <tspan
                 dx="0"
@@ -163,7 +171,11 @@ exports[`<Capacity /> renders correctly in Loading state 1`] = `
               dx="0"
               dy="8.875"
               x="100"
+<<<<<<< HEAD
               y="88"
+=======
+              y="86.95652173913044"
+>>>>>>> Use PF4 graphs
             >
               <tspan
                 dx="0"
@@ -179,7 +191,11 @@ exports[`<Capacity /> renders correctly in Loading state 1`] = `
               dx="0"
               dy="5.324999999999999"
               x="100"
+<<<<<<< HEAD
               y="112"
+=======
+              y="111.11111111111111"
+>>>>>>> Use PF4 graphs
             >
               <tspan
                 dx="0"

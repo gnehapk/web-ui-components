@@ -55,8 +55,8 @@ export const CapacityItem = ({ id, title, used, total, unit, formatValue, Loadin
   }
   return (
     <div className="kubevirt-capacity__item">
-      <div className="kubevirt-capacity__item-title">{title}</div>
-      <h6 className="kubevirt-capacity__item-description">{description}</h6>
+      <h3 className="kubevirt-capacity__item-title">{title}</h3>
+      <h6>{description}</h6>
       <div id={prefixedId('donut-chart', id)} className="kubevirt-capacity__graph">
         <svg viewBox={`0 0 ${CHART_WIDTH} ${CHART_HEIGHT}`}>
           <ChartDonut
@@ -72,14 +72,14 @@ export const CapacityItem = ({ id, title, used, total, unit, formatValue, Loadin
             textAnchor="middle"
             style={{ fontSize: 25 }}
             x={CHART_WIDTH / 2}
-            y={CHART_HEIGHT / 2 - TITLE_HEIGHT_OFFSET}
+            y={CHART_HEIGHT / 2.3}
             text={primaryTitle}
           />
           <ChartLabel
             textAnchor="middle"
             style={{ fontSize: 15 }}
             x={CHART_WIDTH / 2}
-            y={CHART_HEIGHT / 2 + TITLE_HEIGHT_OFFSET}
+            y={CHART_HEIGHT / 1.8}
             text={secondaryTitle}
           />
         </svg>
