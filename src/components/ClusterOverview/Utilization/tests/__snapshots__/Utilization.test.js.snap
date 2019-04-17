@@ -259,7 +259,6 @@ exports[`<Utilization /> renders correctly 1`] = `
         >
           <div
             class="kubevirt-utilization__item-chart kubevirt-utilization__item-chart--narrow"
-<<<<<<< HEAD
           >
             <div
               class="VictoryContainer"
@@ -478,19 +477,13 @@ exports[`<Utilization /> renders correctly 1`] = `
         >
           <div
             class="kubevirt-utilization__item-chart kubevirt-utilization__item-chart--narrow"
-=======
->>>>>>> Use PF4 graphs
           >
             <div
               class="VictoryContainer"
               style="height:100%;width:100%;user-select:none;pointer-events:none;touch-action:none;position:relative"
             >
               <svg
-<<<<<<< HEAD
                 aria-labelledby="victory-container-5-title victory-container-5-desc"
-=======
-                aria-labelledby="victory-container-3-title victory-container-3-desc"
->>>>>>> Use PF4 graphs
                 height="60"
                 role="img"
                 style="pointer-events:all;width:100%;height:100%"
@@ -498,20 +491,12 @@ exports[`<Utilization /> renders correctly 1`] = `
                 width="300"
               >
                 <g
-<<<<<<< HEAD
                   clip-path="url(#victory-clip-6)"
-=======
-                  clip-path="url(#victory-clip-4)"
->>>>>>> Use PF4 graphs
                   style="height:100%;width:100%;user-select:none"
                 >
                   <defs>
                     <clipPath
-<<<<<<< HEAD
                       id="victory-clip-6"
-=======
-                      id="victory-clip-4"
->>>>>>> Use PF4 graphs
                     >
                       <rect
                         height="45"
@@ -526,21 +511,13 @@ exports[`<Utilization /> renders correctly 1`] = `
                   </defs>
                   <g>
                     <path
-<<<<<<< HEAD
                       d="M40,55L105,47.92233009708738L170,37.30582524271845L235,44.38349514563107L300,19.611650485436897L300,55L235,55L170,55L105,55L40,55Z"
-=======
-                      d="M40,53.820388349514566L105,52.050970873786405L170,46.15291262135922L235,49.101941747572816L300,37.30582524271844L300,55L235,55L170,55L105,55L40,55Z"
->>>>>>> Use PF4 graphs
                       role="presentation"
                       shape-rendering="auto"
                       style="fill:#bee1f4;fill-opacity:0.4;stroke:none;stroke-width:2"
                     />
                     <path
-<<<<<<< HEAD
                       d="M40,55L105,47.92233009708738L170,37.30582524271845L235,44.38349514563107L300,19.611650485436897"
-=======
-                      d="M40,53.820388349514566L105,52.050970873786405L170,46.15291262135922L235,49.101941747572816L300,37.30582524271844"
->>>>>>> Use PF4 graphs
                       role="presentation"
                       shape-rendering="auto"
                       style="fill:none;fill-opacity:0.4;stroke:#39a5dc;stroke-width:2"
@@ -610,13 +587,8 @@ exports[`<Utilization /> renders correctly 1`] = `
                       vector-effect="non-scaling-stroke"
                       x1="40"
                       x2="300"
-<<<<<<< HEAD
                       y1="37.30582524271845"
                       y2="37.30582524271845"
-=======
-                      y1="37.30582524271844"
-                      y2="37.30582524271844"
->>>>>>> Use PF4 graphs
                     />
                     <line
                       role="presentation"
@@ -625,24 +597,15 @@ exports[`<Utilization /> renders correctly 1`] = `
                       vector-effect="non-scaling-stroke"
                       x1="40"
                       x2="39"
-<<<<<<< HEAD
                       y1="37.30582524271845"
                       y2="37.30582524271845"
-=======
-                      y1="37.30582524271844"
-                      y2="37.30582524271844"
->>>>>>> Use PF4 graphs
                     />
                     <text
                       direction="inherit"
                       dx="0"
                       dy="3.55"
                       x="29"
-<<<<<<< HEAD
                       y="37.30582524271845"
-=======
-                      y="37.30582524271844"
->>>>>>> Use PF4 graphs
                     >
                       <tspan
                         dx="0"
@@ -650,11 +613,7 @@ exports[`<Utilization /> renders correctly 1`] = `
                         text-anchor="end"
                         x="29"
                       >
-<<<<<<< HEAD
                         0.5
-=======
-                        30
->>>>>>> Use PF4 graphs
                       </tspan>
                     </text>
                   </g>
@@ -668,13 +627,8 @@ exports[`<Utilization /> renders correctly 1`] = `
                       vector-effect="non-scaling-stroke"
                       x1="40"
                       x2="300"
-<<<<<<< HEAD
                       y1="19.611650485436897"
                       y2="19.611650485436897"
-=======
-                      y1="19.61165048543689"
-                      y2="19.61165048543689"
->>>>>>> Use PF4 graphs
                     />
                     <line
                       role="presentation"
@@ -683,24 +637,15 @@ exports[`<Utilization /> renders correctly 1`] = `
                       vector-effect="non-scaling-stroke"
                       x1="40"
                       x2="39"
-<<<<<<< HEAD
                       y1="19.611650485436897"
                       y2="19.611650485436897"
-=======
-                      y1="19.61165048543689"
-                      y2="19.61165048543689"
->>>>>>> Use PF4 graphs
                     />
                     <text
                       direction="inherit"
                       dx="0"
                       dy="3.55"
                       x="29"
-<<<<<<< HEAD
                       y="19.611650485436897"
-=======
-                      y="19.61165048543689"
->>>>>>> Use PF4 graphs
                     >
                       <tspan
                         dx="0"
@@ -708,11 +653,7 @@ exports[`<Utilization /> renders correctly 1`] = `
                         text-anchor="end"
                         x="29"
                       >
-<<<<<<< HEAD
                         1
-=======
-                        60
->>>>>>> Use PF4 graphs
                       </tspan>
                     </text>
                   </g>
@@ -760,11 +701,7 @@ exports[`<Utilization /> renders correctly 1`] = `
               style="height:100%;width:100%;user-select:none;pointer-events:none;touch-action:none;position:relative"
             >
               <svg
-<<<<<<< HEAD
                 aria-labelledby="victory-container-7-title victory-container-7-desc"
-=======
-                aria-labelledby="victory-container-5-title victory-container-5-desc"
->>>>>>> Use PF4 graphs
                 height="60"
                 role="img"
                 style="pointer-events:all;width:100%;height:100%"
@@ -772,20 +709,12 @@ exports[`<Utilization /> renders correctly 1`] = `
                 width="300"
               >
                 <g
-<<<<<<< HEAD
                   clip-path="url(#victory-clip-8)"
-=======
-                  clip-path="url(#victory-clip-6)"
->>>>>>> Use PF4 graphs
                   style="height:100%;width:100%;user-select:none"
                 >
                   <defs>
                     <clipPath
-<<<<<<< HEAD
                       id="victory-clip-8"
-=======
-                      id="victory-clip-6"
->>>>>>> Use PF4 graphs
                     >
                       <rect
                         height="45"
@@ -1035,7 +964,6 @@ exports[`<Utilization /> renders correctly in Loading state 1`] = `
         >
           <div
             class="kubevirt-utilization__item-chart kubevirt-utilization__item-chart--narrow"
-<<<<<<< HEAD
           >
             <div>
               <div
@@ -1065,8 +993,6 @@ exports[`<Utilization /> renders correctly in Loading state 1`] = `
         >
           <div
             class="kubevirt-utilization__item-chart kubevirt-utilization__item-chart--narrow"
-=======
->>>>>>> Use PF4 graphs
           >
             <div>
               <div

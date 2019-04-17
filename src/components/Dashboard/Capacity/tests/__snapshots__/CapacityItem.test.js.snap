@@ -4,14 +4,12 @@ exports[`<CapacityItem /> renders correctly 1`] = `
 <div
   className="kubevirt-capacity__item"
 >
-  <div
+  <h3
     className="kubevirt-capacity__item-title"
   >
     title
-  </div>
-  <h6
-    className="kubevirt-capacity__item-description"
-  >
+  </h3>
+  <h6>
     50 unit available out of 100 unit
   </h6>
   <div
@@ -506,11 +504,7 @@ exports[`<CapacityItem /> renders correctly 1`] = `
         text="50%"
         textAnchor="middle"
         x={100}
-<<<<<<< HEAD
-        y={88}
-=======
         y={86.95652173913044}
->>>>>>> Use PF4 graphs
       />
       <ChartLabel
         style={
@@ -521,11 +515,7 @@ exports[`<CapacityItem /> renders correctly 1`] = `
         text="Used"
         textAnchor="middle"
         x={100}
-<<<<<<< HEAD
-        y={112}
-=======
         y={111.11111111111111}
->>>>>>> Use PF4 graphs
       />
     </svg>
   </div>
@@ -536,14 +526,12 @@ exports[`<CapacityItem /> renders correctly 2`] = `
 <div
   className="kubevirt-capacity__item"
 >
-  <div
+  <h3
     className="kubevirt-capacity__item-title"
   >
     title
-  </div>
-  <h6
-    className="kubevirt-capacity__item-description"
-  >
+  </h3>
+  <h6>
     <InlineLoading
       size="md"
     />
@@ -1038,11 +1026,7 @@ exports[`<CapacityItem /> renders correctly 2`] = `
         text="Loading"
         textAnchor="middle"
         x={100}
-<<<<<<< HEAD
-        y={88}
-=======
         y={86.95652173913044}
->>>>>>> Use PF4 graphs
       />
       <ChartLabel
         style={
@@ -1053,11 +1037,7 @@ exports[`<CapacityItem /> renders correctly 2`] = `
         text="Capacity"
         textAnchor="middle"
         x={100}
-<<<<<<< HEAD
-        y={112}
-=======
         y={111.11111111111111}
->>>>>>> Use PF4 graphs
       />
     </svg>
   </div>
@@ -1068,14 +1048,12 @@ exports[`<CapacityItem /> renders correctly 3`] = `
 <div
   className="kubevirt-capacity__item"
 >
-  <div
+  <h3
     className="kubevirt-capacity__item-title"
   >
     title
-  </div>
-  <h6
-    className="kubevirt-capacity__item-description"
-  >
+  </h3>
+  <h6>
     Not available
   </h6>
   <div
@@ -1568,11 +1546,7 @@ exports[`<CapacityItem /> renders correctly 3`] = `
         text="Unknown"
         textAnchor="middle"
         x={100}
-<<<<<<< HEAD
-        y={88}
-=======
         y={86.95652173913044}
->>>>>>> Use PF4 graphs
       />
       <ChartLabel
         style={
@@ -1583,11 +1557,7 @@ exports[`<CapacityItem /> renders correctly 3`] = `
         text="Capacity"
         textAnchor="middle"
         x={100}
-<<<<<<< HEAD
-        y={112}
-=======
         y={111.11111111111111}
->>>>>>> Use PF4 graphs
       />
     </svg>
   </div>
