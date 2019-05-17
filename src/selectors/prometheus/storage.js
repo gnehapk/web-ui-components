@@ -52,3 +52,7 @@ export const getLegends = (data, metricType) => {
       return [];
   }
 };
+
+export const getUtilizationVectorStats = values => {
+  return values && Array.isArray(values) ? values.map(timeValuePair => parseNumber(timeValuePair[1])) : null;
+};

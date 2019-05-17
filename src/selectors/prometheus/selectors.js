@@ -24,8 +24,8 @@ export const getUtilizationVectorStats = response => {
   return values && Array.isArray(values) ? values.map(timeValuePair => parseNumber(timeValuePair[1])) : null;
 };
 
-export const getUtilizationVectorTime = response => {
-  const values = get(response, 'data.result[0].values');
+export const getUtilizationVectorTime = values => {
+  //const values = get(response, 'data.result[0].values');
   return values && Array.isArray(values) ? values.map(timeValuePair => parseNumber(timeValuePair[0] * 1000)) : null;
 };
 
